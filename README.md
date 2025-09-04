@@ -30,6 +30,6 @@ Sistema em **.NET Core MVC** para auxiliar o Cursinho Popular EACH – USP no co
         dotnet run
     ```
     - Aplicação ficará disponível em:
-    ´´´
+     ```
         https://localhost:<port#>
-    ´´´
+    ```
