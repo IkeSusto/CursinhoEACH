@@ -1,0 +1,43 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio cache/options
+.vs/
+.vscode/
+
+# Logs
+*.log
+
+# OS generated files
+[Dd]esktop.ini
+[Tt]humbs.db
+*.DS_Store
+
+# NuGet
+*.nupkg
+*.snupkg
+# The packages folder can be ignored if you use PackageReference
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+# Rider
+.idea/
+*.iml
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Local settings
+Properties/launchSettings.json
+
+# App settings (se não quiser versionar configs de dev com secrets)
+appsettings.Development.json
