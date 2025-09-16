@@ -16,7 +16,7 @@ Sistema em **.NET Core MVC** para auxiliar o Cursinho Popular EACH – USP no co
 
 2. **Clonar o repositório**:
    ```bash
-        git clone https://github.com/seu-usuario/CursinhoEACH.git
+        git clone https://github.com/MagmaUSP/CursinhoEACH.git
         cd CursinhoEACH
    ```
 
@@ -24,6 +24,10 @@ Sistema em **.NET Core MVC** para auxiliar o Cursinho Popular EACH – USP no co
     - Confiar no certificado HTTPS de desenvolvimento:
     ```bash
         dotnet dev-certs https --trust
+    ```
+    - Dar build na aplicação:
+    ```bash
+        dotnet build
     ```
     - Rodar a aplicação:
     ```bash
@@ -33,3 +37,4 @@ Sistema em **.NET Core MVC** para auxiliar o Cursinho Popular EACH – USP no co
      ```
         https://localhost:<port#>
     ```
+    
