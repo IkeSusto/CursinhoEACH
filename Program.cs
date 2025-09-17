@@ -1,4 +1,10 @@
+using Npgsql;
+using Microsoft.Extensions.Configuration;
+
 var builder = WebApplication.CreateBuilder(args);
+
+var connString = builder.Configuration.GetConnectionString("Postgres");
+builder.Services.AddTransient<NpgsqlConnection>(_ => new NpgsqlConnection(connString));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -14,6 +20,9 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseStaticFiles();
+
 app.UseRouting();
 
 app.UseAuthorization();
