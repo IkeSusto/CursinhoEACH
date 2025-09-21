@@ -3,6 +3,13 @@
 Sistema em **.NET Core MVC** para auxiliar o Cursinho Popular EACH – USP no controle de assiduidade e desempenho dos alunos.
 
 ---
+## Organização
+|_ doc
+|_ src
+    |_ 
+
+
+---
 
 ## Pré-requisitos
 
